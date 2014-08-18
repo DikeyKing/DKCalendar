@@ -21,6 +21,11 @@
 		A97B0CFC19A18C0500117ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97B0CDE19A18C0500117ECD /* UIKit.framework */; };
 		A97B0D0419A18C0500117ECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97B0D0219A18C0500117ECD /* InfoPlist.strings */; };
 		A97B0D0619A18C0500117ECD /* DKCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B0D0519A18C0500117ECD /* DKCalendarTests.m */; };
+		A97B0D1419A1996900117ECD /* DKCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B0D1319A1996900117ECD /* DKCalendarViewController.m */; };
+		A97B0D1919A1A08F00117ECD /* MyDayCalendarDateBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B0D1519A1A08F00117ECD /* MyDayCalendarDateBack1.png */; };
+		A97B0D1A19A1A08F00117ECD /* myTrip_nextArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B0D1619A1A08F00117ECD /* myTrip_nextArrow.png */; };
+		A97B0D1B19A1A08F00117ECD /* myTrip_preArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B0D1719A1A08F00117ECD /* myTrip_preArrow.png */; };
+		A97B0D1C19A1A08F00117ECD /* MyDayCalendarDateBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B0D1819A1A08F00117ECD /* MyDayCalendarDateBack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		A97B0D0119A18C0500117ECD /* DKCalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKCalendarTests-Info.plist"; sourceTree = "<group>"; };
 		A97B0D0319A18C0500117ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A97B0D0519A18C0500117ECD /* DKCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCalendarTests.m; sourceTree = "<group>"; };
+		A97B0D1219A1996900117ECD /* DKCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCalendarViewController.h; sourceTree = "<group>"; };
+		A97B0D1319A1996900117ECD /* DKCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCalendarViewController.m; sourceTree = "<group>"; };
+		A97B0D1519A1A08F00117ECD /* MyDayCalendarDateBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyDayCalendarDateBack1.png; sourceTree = "<group>"; };
+		A97B0D1619A1A08F00117ECD /* myTrip_nextArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myTrip_nextArrow.png; sourceTree = "<group>"; };
+		A97B0D1719A1A08F00117ECD /* myTrip_preArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myTrip_preArrow.png; sourceTree = "<group>"; };
+		A97B0D1819A1A08F00117ECD /* MyDayCalendarDateBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyDayCalendarDateBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +128,13 @@
 				A97B0CEC19A18C0500117ECD /* Main.storyboard */,
 				A97B0CEF19A18C0500117ECD /* DKViewController.h */,
 				A97B0CF019A18C0500117ECD /* DKViewController.m */,
+				A97B0D1219A1996900117ECD /* DKCalendarViewController.h */,
+				A97B0D1319A1996900117ECD /* DKCalendarViewController.m */,
 				A97B0CF219A18C0500117ECD /* Images.xcassets */,
+				A97B0D1519A1A08F00117ECD /* MyDayCalendarDateBack1.png */,
+				A97B0D1619A1A08F00117ECD /* myTrip_nextArrow.png */,
+				A97B0D1719A1A08F00117ECD /* myTrip_preArrow.png */,
+				A97B0D1819A1A08F00117ECD /* MyDayCalendarDateBack.png */,
 				A97B0CE119A18C0500117ECD /* Supporting Files */,
 			);
 			path = DKCalendar;
@@ -229,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97B0D1B19A1A08F00117ECD /* myTrip_preArrow.png in Resources */,
 				A97B0CF319A18C0500117ECD /* Images.xcassets in Resources */,
+				A97B0D1C19A1A08F00117ECD /* MyDayCalendarDateBack.png in Resources */,
+				A97B0D1A19A1A08F00117ECD /* myTrip_nextArrow.png in Resources */,
 				A97B0CE519A18C0500117ECD /* InfoPlist.strings in Resources */,
 				A97B0CEE19A18C0500117ECD /* Main.storyboard in Resources */,
+				A97B0D1919A1A08F00117ECD /* MyDayCalendarDateBack1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 			files = (
 				A97B0CE719A18C0500117ECD /* main.m in Sources */,
 				A97B0CF119A18C0500117ECD /* DKViewController.m in Sources */,
+				A97B0D1419A1996900117ECD /* DKCalendarViewController.m in Sources */,
 				A97B0CEB19A18C0500117ECD /* DKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
